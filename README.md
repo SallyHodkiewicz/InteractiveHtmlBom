@@ -1,7 +1,7 @@
-# Interactive HTML BOM plugin for KiCad
-## Supports EasyEDA, Eagle, Fusion360 and Allegro PCB designer
+**Interactive HTML BOM plugin for KiCad
+*# Supports EasyEDA, Eagle, Fusion360 and Allegro PCB designer
 
-![icon](https://i.imgur.com/js4kDOn.png)
+*[icon](https://i.imgur.com/js4kDOn.png)
 
 This plugin generates a convenient Bill of Materials (BOM) listing with the
 ability to visually correlate and easily search for components and their placements
@@ -43,3 +43,4 @@ plugin (MIT license).
 
 `svgpath.py` is heavily based on
 [svgpathtools](https://github.com/mathandy/svgpathtools) module (MIT license).
+ 
