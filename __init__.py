@@ -1,2 +1,2 @@
-from .InteractiveHtmlBom import plugin
- 
+from*.InteractiveHtmlBom*import plugin
+  
