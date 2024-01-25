@@ -62,7 +62,7 @@ class Arc(object):
             The start point of the curve. Note: `start` and `end` cannot be the
             same.  To make a full ellipse or circle, use two `Arc` objects.
         radius : complex
-            rx + 1j*ry, where rx and ry are the radii of the ellipse (also
+            rx + 1j#ry, where rx and ry are the radii of the ellipse (also
             known as its semi-major and semi-minor axes, or vice-versa or if
             rx < ry).
             Note: If rx = 0 or ry = 0 then this arc is treated as a
@@ -128,8 +128,8 @@ class Arc(object):
         in some sense when viewing SVGs (as the y coordinate starts at the top
         of the image and increases towards the bottom).
         """
-        assert start != end
-        assert radius.real != 0 and radius.imag != 0
+        assert start *= end
+        assert radius.real *= 0 and radius.imag *= 0
 
         self.start = start
         self.radius = abs(radius.real) + 1j * abs(radius.imag)
@@ -536,3 +536,4 @@ def create_path(lines, circles=[]):
                      *map(limit_digits, [r, r, r + r])))
 
     return ''.join(parts)
+ 
